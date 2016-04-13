@@ -51,3 +51,24 @@ More in depth (Immutable, tests): http://www.theodo.fr/blog/2016/03/getting-star
 ## Part 3
 ### Stylin' React 
 ##### (Ben Mailian, Co-Founder [Snugg Home](http://snuggpro.com), founder of [Working Company](http://workingco.in) in Ahmedebad)
+**Some cool talks on inline styling**
+http://blog.vjeux.com/2014/javascript/react-css-in-js-nationjs.html
+https://www.youtube.com/watch?v=ERB1TJBn32c
+
+**Repos used in my demo**
+These are installed using npm with the --save-dev flag
+Boiler plate: 
+* CSS & style loaders for webpack: https://github.com/webpack/css-loader   https://github.com/webpack/style-loader
+* ES7 decorators (@Radium) babel-plugin-transform-decorators-legacy
+* 
+
+In your webpack.config.js file under modules, add:
+```
+    { test: /\.css$/,
+      loader: 'style-loader!css-loader' }
+```
+In .babelrc, add: 
+```
+  "plugins": ["transform-decorators-legacy"],
+```
+
