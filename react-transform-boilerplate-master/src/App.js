@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import { NICE, SUPER_NICE, palette } from './global-styles';
-import color from 'color'
-import Radium from 'radium'
-import {StyleRoot} from 'radium'
+// import color from 'color'
+// import Radium from 'radium'
 
 
 class Counter extends Component {
@@ -23,7 +22,7 @@ class Counter extends Component {
   }
 
   render() {
-    const color = this.props.color
+    const {color} = this.props
     return (
       <h1 style={{color: color}}>
         Counter ({this.props.increment}): {this.state.counter}
@@ -32,38 +31,25 @@ class Counter extends Component {
   }
 }
 
-@Radium
+// @Radium
 export class App extends Component {
   render() {
     return (
       <div style={styles.wrapper}>
-        <Counter increment={1} color={color(palette.BROWN).lighten(.5).hexString()} />
-        <Counter increment={5} color={palette.ORANGE} />
+        <Counter increment={1} color={"green"} />
+        <Counter increment={5} color={"blue"} />
       </div>
     );
   }
 }
 
 // Color documentation here: https://github.com/Qix-/color
-const baseColor = color(palette.BEIGE)
 const mainPadding = 10
 
 const styles = {
   wrapper: {
-    fontFamily: 'verdana',
-    backgroundColor: baseColor.desaturate(0.3).rgbString(),
+    backgroundColor: '#F2F1EF',
     padding: mainPadding * 2,
     borderRadius: 5,
-    ':hover': {
-      backgroundColor: baseColor.clearer(0.3).rgbString(),
-      cursor: 'pointer'
-    },
-    ':active': {
-      backgroundColor: baseColor.darken(0.1).rgbString()
-    },
-    '@media (min-width: 768px)': {
-      color: palette.ORANGE
-    }
-
   }
 }

@@ -8,7 +8,7 @@ A repo for resources from the React Ahmedabad Meetups
 
 
 ## Part 2
-### Handling Data Gracefully 
+### Handling Data Gracefully
 ##### (Jeff Friesen, Co-Founder [Snugg Home](http://snuggpro.com), https://github.com/jefffriesen)
 Passing down callback functions or global event listeners get tedious. Facebook developered the Flux library, which was more of a pattern of data flow than a library. Dan Abramov (@dan_abramov) built a great implementation of the flux architecture called [Redux](http://redux.js.org).
 
