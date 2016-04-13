@@ -57,10 +57,11 @@ https://www.youtube.com/watch?v=ERB1TJBn32c
 
 **Repos used in my demo**
 These are installed using npm with the --save-dev flag
-Boiler plate: 
+• Boiler plate: https://github.com/gaearon/react-transform-boilerplate
 * CSS & style loaders for webpack: https://github.com/webpack/css-loader   https://github.com/webpack/style-loader
 * ES7 decorators (@Radium) babel-plugin-transform-decorators-legacy
-* 
+* Radium - better inline styling: https://github.com/FormidableLabs/radium
+* Color manipulation: https://github.com/Qix-/color
 
 In your webpack.config.js file under modules, add:
 ```
