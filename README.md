@@ -4,7 +4,16 @@ A repo for resources from the React Ahmedabad Meetups
 ## Part 1
 ### Getting started with React
 ##### Kiran Kumar Abburi, React Bangalore Meetup Founder, http://webrafter.com, https://github.com/akiran
+#### Topics covered in this talk
+* Basic principles of React
+* Composition of react component
+* Props Vs State
+* Communication between react components
 
+Few useful Links 
+* [react-router](https://github.com/reactjs/react-router)
+* [react-boostrap](https://github.com/react-bootstrap/react-bootstrap)
+* [material-ui](https://github.com/callemall/material-ui)
 
 
 ## Part 2
