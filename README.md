@@ -38,6 +38,12 @@ Covered in demo:
   * How storing state in [Immutable.js](http://facebook.github.io/immutable-js/) can make life easier and more fun
   * [MobX](http://mobxjs.github.io/mobx/) as an alternative to Redux and why MobX should *not* using immutable data in the store
 
+* Fun diversions
+  * What is immutable data and how it can be so efficient: https://www.youtube.com/watch?v=SiFwRtCnxv4
+  * Clojurescript wrappers around React: 
+    * Om Next: https://www.youtube.com/watch?v=ByNs9TG30E8 
+    * https://reagent-project.github.io
+  * Rick Hickey created Clojure and has been pushing the entire functional programming (and programming) world forward. Watch any one of these talks: https://changelog.com/rich-hickeys-greatest-hits/
 
 #### React starter project
 Huge list of start projects: http://andrewhfarmer.com/starter-project/
@@ -55,6 +61,13 @@ Steps for most getting most starter project going:
 Start with this (free): https://egghead.io/series/getting-started-with-redux
 More in depth (Immutable, tests): http://www.theodo.fr/blog/2016/03/getting-started-with-react-redux-and-immutable-a-test-driven-tutorial-part-1/
 
+Awesome people to follow on Twitter
+* David Nolen, Functional Programming, OM Next, Clojurescript: [@swannodette](https://twitter.com/swannodette)
+* Dan Abramov, Redux, React: [@dan_abramov](https://twitter.com/dan_abramov)
+* Michel Weststrate, MobX [@mweststrate](https://twitter.com/mweststrate)
+* Vjeux, React, React Native, Inline Styles in React [@Vjeux](https://twitter.com/Vjeux)
+* ReactJS News [@ReactJSNews](https://twitter.com/ReactJSNews)
+* James Long, React, Redux, lots of other stuff [@jlongster](https://twitter.com/jlongster)
 
 
 ## Part 3
