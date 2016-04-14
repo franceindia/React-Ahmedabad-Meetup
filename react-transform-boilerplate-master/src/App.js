@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import { NICE, SUPER_NICE, palette } from './global-styles';
-// import color from 'color'
-// import Radium from 'radium'
-
+import color from 'color'
+import Radium from 'radium'
 
 class Counter extends Component {
   constructor(props) {
@@ -22,7 +21,7 @@ class Counter extends Component {
   }
 
   render() {
-    const {color} = this.props
+    const color = this.state.counter > 20 ? 'red' : this.props.color
     return (
       <h1 style={{color: color}}>
         Counter ({this.props.increment}): {this.state.counter}
@@ -31,7 +30,7 @@ class Counter extends Component {
   }
 }
 
-// @Radium
+@Radium
 export class App extends Component {
   render() {
     return (
@@ -46,10 +45,24 @@ export class App extends Component {
 // Color documentation here: https://github.com/Qix-/color
 const mainPadding = 10
 
+const baseColor = palette.BEIGE
+
 const styles = {
   wrapper: {
-    backgroundColor: '#F2F1EF',
+    backgroundColor: color(baseColor).darken(0.1).rgbString(),
     padding: mainPadding * 2,
     borderRadius: 5,
+    ':hover': {
+      backgroundColor: '#888',
+      cursor: 'pointer'
+
+    },
+    ':active': {
+      backgroundColor: '#000'
+    },
+    '@media (min-width: 768px)': {
+      backgroundColor: 'blue'
+    }
   }
+
 }
