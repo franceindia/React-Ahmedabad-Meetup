@@ -21,8 +21,7 @@ Few useful Links
 ##### (Jeff Friesen, Co-Founder [Snugg Home](http://snuggpro.com), https://github.com/jefffriesen)
 Passing down callback functions or global event listeners get tedious. Facebook developered the Flux library, which was more of a pattern of data flow than a library. Dan Abramov (@dan_abramov) built a great implementation of the flux architecture called [Redux](http://redux.js.org).
 
-Demo based on a repo that has already been set up. You can clone it and play with it yourself. The repo has React, Redux, tests, React Router, Babel, Webpack, SASS, Mocha and others:
-https://github.com/coryhouse/react-slingshot
+Demo based on a repo that has already been set up. You can clone it and play with it yourself: https://github.com/jefffriesen/react-slingshot. The repo has React, Redux, tests, React Router, Babel, Webpack, SASS, Mocha and others. Original repo here: https://github.com/coryhouse/react-slingshot
 
 If you haven't worked with those libraries, using a starter project like this is a great way to play with them.
 
